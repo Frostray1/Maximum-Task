@@ -1,0 +1,30 @@
+.carCard {
+    margin-left: 1em;
+    min-height: 561px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	h4 {
+		font-weight: 400;
+		font-size: 32px;
+		letter-spacing: 0.03em;
+		line-height: 140%;
+	}
+	p {
+		font-size: 28px;
+		letter-spacing: 0.02em;
+		color: #9aa7ad;
+		line-height: 140%;
+	}
+	button {
+		width: 100%;
+		height: 80px;
+		margin-top: 28px;
+		font-size: 28px;
+		line-height: 120%;
+		background: #ca0100;
+        border: none;
+		border-radius: 8px;
+		cursor: pointer;
+	}
+}
