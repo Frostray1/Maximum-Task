@@ -5,7 +5,7 @@ import Button from "../button/Button";
 const Promotion = () => {
   return (
     <div className={styles.promotion}>
-      <div className={styles.container}>
+      <div className={styles.promotionСontainer}>
         <h1>Кредит на новый Cherry Tiggo</h1>
         <div className={styles.promotionInfo}>
           <p>

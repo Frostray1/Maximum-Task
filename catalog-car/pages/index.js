@@ -1,8 +1,27 @@
-import { Inter } from 'next/font/google'
-import Home from '@/components/screens/home/Home'
+import SortBrand from '@/components/sortBrand/SortBrand';
+import Title from '@/components/title/Title';
+import styles from './index.module.scss';
 
-const inter = Inter({ subsets: ['latin'] })
 
-export default function indexPage() {
-  return <Home/>
-}
+const Home = () => {
+	const brands = [
+		'Chery',
+		'Haval',
+		'Geely',
+		'Exeed',
+		'Audi',
+		'Kia',
+		'Hyundai'
+	];
+
+	return (
+		<>
+			<section className={styles.container}>
+				<Title />
+				<SortBrand brands={brands} />
+			</section>
+		</>
+	);
+};
+
+export default Home;

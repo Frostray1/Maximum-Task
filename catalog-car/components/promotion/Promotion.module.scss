@@ -1,14 +1,15 @@
 .promotion {
   margin-top: 83px;
   height: 836px;
-  width: 100vw;
+  width: 100;
   background: linear-gradient(102.95deg, #00a8cd 62.03%, #047dbf 110.97%);
   display: flex;
   justify-content: center;
   color: #ffffff;
 }
-.container {
+.promotionСontainer {
   width: 80%;
+  max-width: 1920px;
   background: url("/images/img.svg") no-repeat;
   background-position: 50%;
   h1 {

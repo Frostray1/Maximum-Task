@@ -1,11 +1,7 @@
-.mainWindow {
-  display: flex;
-  justify-content: center;
-}
-
-.container {
+.container{
   width: 80%;
-  justify-content: center;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .sortAndProduct {
   display: flex;
@@ -16,5 +12,5 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(440px, 0fr));
   grid-gap: 20px;
-  width: 100%; /* Установите 100% ширины */
+  width: 100%; 
 }
