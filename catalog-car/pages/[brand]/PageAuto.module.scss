@@ -1,0 +1,92 @@
+.pageAutoWindow {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 80%;
+  justify-content: center;
+  margin-top: 80px;
+  h2 {
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    color: #010c13;
+  }
+  p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #9aa7ad;
+  }
+}
+
+.autoInfo {
+  margin-top: 80px;
+}
+.autoParameters {
+  h3 {
+    margin-top: 60px;
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+
+    color: #010c13;
+  }
+}
+
+.autoParametersItem {
+  width: 626px;
+  height: 82px;
+  background: #f4f7f8;
+  border-radius: 12px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  font-size: 32px;
+  h5 {
+    color: #ca0100;
+    
+  }
+  h4 {
+    font-size: 28px;
+    line-height: 140%;
+    color: #010c13;
+    letter-spacing: 0.02em;
+    margin-left: 20px;
+  }
+}
+
+.paramsList {
+padding: 60px;
+  width: 626px;
+  height: 430px;
+  background: #f4f7f8;
+  border-radius: 16px;
+  margin-top: 30px;
+
+  li {
+    display: flex;
+    margin-bottom: 20px;
+
+    p{
+        margin-top: 1em;
+        font-size: 28px;
+        line-height: 140%;
+        color: #010C13;
+        margin-left: 40px;
+    }
+  }
+}
+
+.autoInfo{
+    display: flex;
+}
+
+.slider{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 876px;
+    
+    // height: 719px;
+}

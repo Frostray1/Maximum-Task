@@ -1,0 +1,20 @@
+.mainWindow {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  justify-content: center;
+}
+.sortAndProduct {
+  display: flex;
+}
+
+.products {
+  margin: 0px 0em 10em 3em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(440px, 0fr));
+  grid-gap: 20px;
+  width: 100%; /* Установите 100% ширины */
+}

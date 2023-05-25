@@ -1,0 +1,33 @@
+
+
+.sortList {
+  border-bottom: 2px solid #9aa7ad;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px;
+  max-width: 500px;
+  max-height: 209px;
+  label{
+    font-size: 28px;
+  }
+}
+
+.sortButton {
+  margin-top: 20px;
+  min-width: 400px;
+
+  button {
+    font-size: 16px;
+    margin: 1em 1em 0em 0em;
+    background: transparent;
+    border: 2px solid #010c13;
+    border-radius: 8px;
+    color: black;
+    padding: 8px 20px;
+    cursor: pointer;
+
+    &:hover {
+      background: #a9a9a9;
+    }
+  }
+}

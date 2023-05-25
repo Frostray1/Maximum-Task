@@ -1,0 +1,32 @@
+.promotion {
+  margin-top: 83px;
+  height: 836px;
+  width: 100vw;
+  background: linear-gradient(102.95deg, #00a8cd 62.03%, #047dbf 110.97%);
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+.container {
+  width: 80%;
+  background: url("/images/img.svg") no-repeat;
+  background-position: 50%;
+  h1 {
+    font-size: 40px;
+    margin-top: 5em;
+  }
+}
+.promotionInfo {
+  p {
+    margin-top: 2em;
+    font-weight: normal;
+    line-height: 140%;
+    font-weight: 400;
+    font-size: 28px;
+    max-width: 477px;
+  }
+  button {
+    margin-top: 3em;
+    max-width: 440px;
+  }
+}
