@@ -6,14 +6,13 @@ import Button from '../button/Button';
 const CarCard = ({ car, selectedBrand }) => {
 	const { photobank, feedData } = car;
 	const { brandByClassifierName, equipmentVariantName, engine } = feedData;
-	const carInfo =
-		engine.engineCapacity + ' / ' + engine.enginePower + ' Л.С. / ' + engine.engineTransmission;
-
+	const carInfo = `${engine.engineCapacity} / ${engine.enginePower} Л.С. / ${engine.engineTransmission}`
 	const carName = brandByClassifierName + equipmentVariantName;
   
 	return (
 		<div className={styles.carCard}>
 			<Image
+				className={styles.carCardImage}
 				src={photobank.imgs[0].url}
 				width={440}
 				height={292}

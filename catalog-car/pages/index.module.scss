@@ -1,4 +1,14 @@
-.container{
-    width: 80%;
-    margin: 0 auto;
+.container {
+	width: 80%;
+	max-width: 1920px;
+
+	margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+	/* Ваши стили для планшета */
+}
+
+@media (max-width: 480px) {
+	/* Ваши стили для мобильного устройства */
 }

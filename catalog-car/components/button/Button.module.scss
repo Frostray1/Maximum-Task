@@ -1,13 +1,21 @@
 .button {
-    font-family: "Tactic Sans", sans-serif;
-    color:white;
-    width: 100%;
-    height: 80px;
-    margin-top: 28px;
-    font-size: 28px;
-    line-height: 120%;
-    background: #ca0100;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+	font-family: 'Tactic Sans', sans-serif;
+	color: white;
+	width: 100%;
+	height: 80px;
+	margin-top: 28px;
+	font-size: 28px;
+	line-height: 120%;
+	background: #ca0100;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+@media (max-width: 480px) {
+	.button {
+		margin-top: 20px;
+		font-size: 14px;
+		height: 40px;
+	}
 }

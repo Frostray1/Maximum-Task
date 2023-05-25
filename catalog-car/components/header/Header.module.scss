@@ -1,25 +1,51 @@
 .container {
-  width: 80%;
-  max-width: 1920px;
-  display: flex;
-  align-items: center;
+	width: 80%;
+	max-width: 1920px;
+	display: flex;
+	align-items: center;
 }
 
 .header {
-  display: flex;
-  justify-content: center;
-  color: white;
-  height: 100px;
-  width: 100%;
-  background: rgb(1, 12, 19);
+	display: flex;
+	justify-content: center;
+	color: white;
+	height: 100px;
+	width: 100%;
+	background: rgb(1, 12, 19);
 
-  h3 {
-    font-weight: 400;
-    font-size: 16px;
-    margin-left: 1em;
-    letter-spacing: 0.03em;
+	h3 {
+		font-weight: 400;
+		font-size: 16px;
+		margin-left: 1em;
+		letter-spacing: 0.03em;
+	}
+
+	.line {
+		margin-left: 1em;
+	}
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
   }
-  .line {
-    margin-left: 1em;
-  }
+
+	.header {
+		height: 54px;
+
+		h3 {
+			font-size: 10px;
+		}
+
+		.line {
+			margin-left: 1em;
+			width: 2px;
+			height: 25px;
+		}
+
+		.logo {
+			width: 111px;
+			height: 30px;
+		}
+	}
 }

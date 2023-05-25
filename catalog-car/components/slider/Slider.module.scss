@@ -1,12 +1,19 @@
+.scrollbar {
+	margin: 1em;
+}
 
-  
+.swiper {
+	border-radius: 16px;
+}
 
-  .swiper {
-    border-radius: 16px;
-    // height: 100%;
-    // background:blue;
-  }
-  
+.swiper-pagination {
+	margin: 20px auto;
+	text-align: center;
 
-
-  
+	span {
+		min-width: 25px;
+		height: 4px;
+		border-radius: 0px;
+		background: black;
+	}
+}

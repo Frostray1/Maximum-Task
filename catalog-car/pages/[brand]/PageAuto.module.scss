@@ -1,34 +1,31 @@
-.container{
-  width: 80%;
-  max-width: 1920px;
-  margin: 0 auto;
-  margin-top: 80px;
-  h2 {
-    font-size: 40px;
-    line-height: 140%;
-    letter-spacing: 0.03em;
-    color: #010c13;
-  }
-  p {
-    margin-top: 20px;
-    font-size: 16px;
-    line-height: 150%;
-    color: #9aa7ad;
-  }
+.container {
+	width: 80%;
+	max-width: 1920px;
+	margin: 0 auto;
+	margin-top: 80px;
+
+	h2 {
+		font-size: 40px;
+		line-height: 140%;
+		letter-spacing: 0.03em;
+		color: #010c13;
+	}
+  
+	p {
+		margin-top: 20px;
+		font-size: 16px;
+		line-height: 150%;
+		color: #9aa7ad;
+	}
 }
-
-
 
 .autoInfo {
-  display: flex;
-  margin-top: 80px;
+	display: flex;
+	margin-top: 80px;
 }
 
-
-
-.slider{
-    margin-top: 20px;
-    margin-left: auto;
-    width: 876px;
-    
+.slider {
+	margin-top: 20px;
+	margin-left: auto;
+	width: 876px;
 }

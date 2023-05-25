@@ -26,7 +26,6 @@ const Header = () => {
 					priority={true}
 				/>
 				<h3>Официальный диллер Максимум</h3>
-			
 			</div>
 		</div>
 	);

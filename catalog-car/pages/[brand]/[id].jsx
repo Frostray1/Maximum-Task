@@ -1,4 +1,3 @@
-import Header from '@/components/header/Header';
 import styles from './PageAuto.module.scss';
 import Slider from '@/components/slider/Slider';
 import Promotion from '@/components/promotion/Promotion';
@@ -7,24 +6,23 @@ import AutoInfo from '@/components/autoInfo/AutoInfo';
 const PageAuto = ({ carData }) => {
 	const { photobank, feedData } = carData;
 	const { vin, brandByClassifierName, equipmentVariantName } = feedData;
-
 	const carName = brandByClassifierName + equipmentVariantName;
 
 	return (
 		<>
 			<section className={styles.container}>
 				<div className={styles.pageAutoWindow}>
-						<h2>{carName}</h2>
-						<p>{vin}</p>
-						<div className={styles.autoInfo}>
-							<AutoInfo feedData={feedData} />
-							<div className={styles.slider}>
-								<Slider photobank={photobank.imgs} />
-							</div>
+					<h2>{carName}</h2>
+					<p>{vin}</p>
+					<div className={styles.autoInfo}>
+						<AutoInfo feedData={feedData} />
+						<div className={styles.slider}>
+							<Slider photobank={photobank.imgs} />
 						</div>
+					</div>
 				</div>
 			</section>
-      <Promotion />
+			<Promotion />
 		</>
 	);
 };
