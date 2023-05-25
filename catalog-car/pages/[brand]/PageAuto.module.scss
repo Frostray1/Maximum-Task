@@ -27,5 +27,30 @@
 .slider {
 	margin-top: 20px;
 	margin-left: auto;
-	width: 876px;
+	width: 55em;
+}
+
+@media (max-width: 480px) {
+	.container {
+		width: 90%;
+		margin-top: 40px;
+
+		h2 {
+			font-size: 28px;
+		}
+
+		p {
+			margin-top: 10px;
+			font-size: 14px;
+		}
+	}
+
+	.autoInfo {
+		flex-direction: column;
+		margin-top: 40px;
+	}
+
+	.slider {
+		width: 100%;
+	}
 }

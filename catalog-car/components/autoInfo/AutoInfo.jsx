@@ -1,5 +1,12 @@
 import styles from './AutoInfo.module.scss';
 import AutoInfoIcons from './AutoInfoIcons';
+import { Roboto} from 'next/font/google';
+ 
+const roboto = Roboto({
+  weight: '700',
+  style: ['normal'],
+  subsets: ['latin'],
+});
 
 const AutoInfo = ({ feedData }) => {
 	const {
@@ -14,7 +21,7 @@ const AutoInfo = ({ feedData }) => {
 	return (
 		<div className={styles.autoParameters}>
 			<div className={styles.autoParametersItem}>
-				<h5>{price.toLocaleString('ru')} </h5>
+				<h5>{price.toLocaleString('ru')} <span className={roboto.className}>&#8381;</span> </h5>
 			</div>
 			<div className={styles.autoParametersItem}>
 				<AutoInfoIcons link={'/images/label.svg'} width={39} height={42} />
